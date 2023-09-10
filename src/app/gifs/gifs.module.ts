@@ -4,6 +4,7 @@ import { HomepageComponent } from './pages/homepage/homepage.component';
 import { SearchBoxComponent } from './components/search-box/search-box/search-box.component';
 import { CardlistComponent } from './components/card-list/cardlist/cardlist.component';
 import { GifsCardComponent } from './components/gifs-card/gifs-card.component';
+import { SharedModule } from '../shared/shared.module';
 
 
 
@@ -15,7 +16,8 @@ import { GifsCardComponent } from './components/gifs-card/gifs-card.component';
     GifsCardComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    SharedModule
   ],
   exports: [
     HomepageComponent,

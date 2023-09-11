@@ -2,6 +2,7 @@ import { TestBed } from '@angular/core/testing';
 import { AppComponent } from './app.component';
 
 describe('AppComponent', () => {
+<<<<<<< HEAD
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       declarations: [
@@ -9,6 +10,11 @@ describe('AppComponent', () => {
       ],
     }).compileComponents();
   });
+=======
+  beforeEach(() => TestBed.configureTestingModule({
+    declarations: [AppComponent]
+  }));
+>>>>>>> 989274f911980244eeab7cc4397029a677ded315
 
   it('should create the app', () => {
     const fixture = TestBed.createComponent(AppComponent);
